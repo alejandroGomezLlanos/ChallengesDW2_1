@@ -1,10 +1,11 @@
 //tercer challenge(?)
 import {useState} from "react";
-import {AddCategory, GifGrid} from "./components"
+import AddCategory from "./components/AddCategory"
+import GifGrid from "./components/GifGrid"
 
 const GiftExpertApp = () => {
 
-	//mi set se categorias
+	//mi set de categorias
 	const [categories, setCategories] = useState(["Zodiac"])
 	//metodo para agregar categorias a la lista
 	//abriendo lista y metiendo algo nuevo con set
