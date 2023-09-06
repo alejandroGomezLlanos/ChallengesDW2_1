@@ -1,11 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import FirstApp from './FirstApp';
+import GiftExpertApp from './GiftExpertApp';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <FirstApp />
+    <GiftExpertApp />
   </React.StrictMode>
 );
 
