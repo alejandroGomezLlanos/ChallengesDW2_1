@@ -1,7 +1,10 @@
-const initialState = [{
-	id:1,
-	todo: "hacer los challenges",
-	done: false
-}];
+export const todoReducer = (initialState = [], action)=>{
+	switch (action.type) {
+		case "[TODO] ADD TODO":
+			return [... initialState, action.payload]
+		default:
+			return initialState;
+	}
+}
 
 const todoReducer = {}
