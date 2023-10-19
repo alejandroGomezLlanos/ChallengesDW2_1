@@ -6,5 +6,3 @@ export const todoReducer = (initialState = [], action)=>{
 			return initialState;
 	}
 }
-
-const todoReducer = {}

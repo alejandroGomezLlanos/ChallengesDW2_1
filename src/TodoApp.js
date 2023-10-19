@@ -1,7 +1,7 @@
 //TodoApp
 import React from "react"
 import {useReducer} from "react"
-import {TodoReducer} from "./TodoReducer"
+import {todoReducer} from "./TodoReducer"
 
 //estado inicial
 const initialState = [{
@@ -11,7 +11,7 @@ const initialState = [{
 }]
 
 export const TodoApp = () =>{
-	const [todos, dispatchTodo] = useReducer(TodoReducer, initialState);
+	const [todos, dispatchTodo] = useReducer(todoReducer, initialState);
 
 
 return(
