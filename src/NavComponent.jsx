@@ -4,7 +4,7 @@ import {HomePage} from "./HomePage"
 import {LoginPage} from "./LoginPage"
 import {ProductsPage} from "./ProductsPage"
 
-export const MainApp = () => {
+export const Navcomponent = () => {
 	return(
 	<>
 	<NavLink to="/"> Home </NavLink>
